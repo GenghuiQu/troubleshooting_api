@@ -1,2 +1,5 @@
 Flask
 PyMuPDF
+Pillow
+openai
+requests
