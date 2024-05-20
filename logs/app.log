@@ -1,1 +1,150 @@
-
+2024-05-20 04:22:45,277 INFO Starting the Flask app
+2024-05-20 04:22:45,279 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2024-05-20 04:22:45,279 INFO [33mPress CTRL+C to quit[0m
+2024-05-20 04:23:00,280 INFO Received a file upload request
+2024-05-20 04:23:00,298 INFO File saved to /tmp/fan manual.pdf
+2024-05-20 04:23:12,011 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 04:23:12,014 INFO Successfully extracted troubleshooting information
+2024-05-20 04:23:12,015 INFO 172.17.0.1 - - [20/May/2024 04:23:12] "POST /upload HTTP/1.1" 200 -
+2024-05-20 04:23:20,824 INFO Received a file upload request
+2024-05-20 04:23:20,875 INFO File saved to /tmp/Treadclimber manual.pdf
+2024-05-20 04:23:50,047 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 04:23:50,049 INFO Successfully extracted troubleshooting information
+2024-05-20 04:23:50,051 INFO 172.17.0.1 - - [20/May/2024 04:23:50] "POST /upload HTTP/1.1" 200 -
+2024-05-20 04:25:53,202 INFO Starting the Flask app
+2024-05-20 04:25:53,204 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+2024-05-20 04:25:53,204 INFO [33mPress CTRL+C to quit[0m
+2024-05-20 04:26:07,368 INFO Received a file upload request
+2024-05-20 04:26:07,385 INFO File saved to /tmp/fan manual.pdf
+2024-05-20 04:26:16,943 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 04:26:16,946 INFO Successfully extracted troubleshooting information: {
+    "page-8": {
+        "troubleshooting": {
+            "The fan is not operating": {
+                "Possible Cause": [
+                    "The plug is not fully inserted into the wall outlet.",
+                    "The wall outlet experienced an overload.",
+                    "Fuse in plug failed. (For US, Mexico and UK)"
+                ],
+                "Solution": [
+                    "Make sure that the plug is fully inserted into the base AC wall outlet.",
+                    "Check the plug. Inspect the main electrical breaker box. If you find a tripped breaker, reset it. If the problem persists, contact a licensed electrician.",
+                    "Remove and inspect fuse located in the plug. If the fuse appears blown, replace with same size and type. The fuse is rated at 2A, 125V (US) & (Mexico) 2.5A, 250V (UK). If the problem persists, contact a qualified, licensed electrician."
+                ]
+            },
+            "The remote control does not operate the tower fan": {
+                "Possible Cause": [
+                    "The battery is incorrect.",
+                    "The battery is expired."
+                ],
+                "Solution": [
+                    "Inspect the battery to ensure it is installed correctly. Replace the battery. For best performance recommend using a Lithium cell. If the problem persists, contact customer service at service@signfuntm.com or call 1-866-505-1011 for assistance.",
+                    "Replace the battery."
+                ]
+            },
+            "The fan(s) are missing parts": {
+                "Possible Cause": [
+                    "Contact option and quality control parts department as soon as possible."
+                ],
+                "Solution": [
+                    "Contact customer service at service@signfuntm.com or call 1-866-505-1011 for assistance."
+                ]
+            }
+        }
+    }
+}
+2024-05-20 04:26:16,947 INFO 172.17.0.1 - - [20/May/2024 04:26:16] "POST /upload HTTP/1.1" 200 -
+2024-05-20 04:26:41,028 INFO Received a file upload request
+2024-05-20 04:26:41,067 INFO File saved to /tmp/Treadclimber manual.pdf
+2024-05-20 04:27:12,143 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-20 04:27:12,145 INFO Successfully extracted troubleshooting information: {
+  "pages": {
+    "32": {
+      "troubleshooting": {
+        "Console will not power up/turn on/start": {
+          "Things to Check": "Batteries",
+          "Solution": "Make sure batteries are installed correctly. If batteries are correctly installed, replace with a set of new batteries."
+        },
+        "Speed displayed is not accurate": {
+          "Things to Check": [
+            "Display set to wrong unit of measure. (English/Metric)",
+            "Console Setting “Edger” (if equipped)",
+            "Speed Sensor Assembly"
+          ],
+          "Solution": [
+            "Change display units.",
+            "Adjust the Speed Detection setting “Edger” on the Console to the other option (see “Console Service/Setup Mode” procedure).",
+            "Replace Speed Sensor Assembly."
+          ]
+        },
+        "Speed displayed is always “0” / stuck in Pause mode": {
+          "Things to Check": [
+            "Speed Sensor Cable",
+            "Speed Sensor Magnet and Speed Sensor Assembly",
+            "Console Assembly"
+          ],
+          "Solution": [
+            "Make sure the Speed Sensor Cable is connected to the back of the Console and the Treadle Assembly near the Flywheel Assembly.",
+            "Check Speed Sensor Magnet and Speed Sensor Assembly to make sure they are in place.",
+            "Replace Console Assembly."
+          ]
+        },
+        "Walking belt misalignment": {
+          "Things to Check": [
+            "Rear belt guides",
+            "Tracking adjustment"
+          ],
+          "Solution": [
+            "Belts should ride on top of triangular black belt guides at rear of Treadles.",
+            "Belts are not required to be perfectly centered, and will typically farther out in the rear than they are in the front. This may vary depending on user's stride. If belt tracks to one side far enough to cause a scraping sound or belt wear/fraying, follow belt alignment procedure in Owner’s Manual."
+          ]
+        }
+      }
+    },
+    "33": {
+      "troubleshooting": {
+        "Speed dependent grinding or scraping noise": {
+          "Things to Check": [
+            "Belt alignment",
+            "Rollers"
+          ],
+          "Solution": [
+            "Check walking belt alignment. Belt contact with metal guides under Treadle can make a loud grinding sound. If belts are misaligned, adjust walking belt.",
+            "Contact Customer Care for further assistance."
+          ]
+        },
+        "Hesitation or belt slipping when walking on unit": {
+          "Things to Check": "Walking belt tension",
+          "Solution": "Adjust walking belt tension by following the “Adjusting the Walking Belts” procedure."
+        },
+        "“Tick” sound once per revolution or scraping noise from under Treadle": {
+          "Things to Check": [
+            "Lubrication",
+            "Belt alignment"
+          ],
+          "Solution": [
+            "Consult lubrication chart and apply as necessary.",
+            "Belt seam may be contacting metal belt guide under Treadle. Slight adjustment of belt should alleviate noise. Follow the “Adjusting the Walking Belts” procedure."
+          ]
+        },
+        "Treadles do not operate correctly": {
+          "Things to Check": [
+            "Dependency and Heim Joint",
+            "Treadles"
+          ],
+          "Solution": [
+            "Consult “One Way Bearing Inspection and Adjustment” and “Heim Joint Inspection” procedures.",
+            "Contact Customer Care for further assistance."
+          ]
+        }
+      }
+    }
+  }
+}
+2024-05-20 04:27:12,146 INFO 172.17.0.1 - - [20/May/2024 04:27:12] "POST /upload HTTP/1.1" 200 -
