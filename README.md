@@ -46,6 +46,7 @@ Logs are stored locally in the directory you specified when running the Docker c
 To view logs:
 
 1. Open the log file using any text editor or use the following command to view the logs:
-   ```bash
-   cat C:\path\to\your\logs\app.log
-   tail -f C:\path\to\your\logs\app.log  # Real-time log viewing
+	```bash
+	cat C:\path\to\your\logs\app.log
+	tail -f C:\path\to\your\logs\app.log  # Real-time log viewing
+	```
