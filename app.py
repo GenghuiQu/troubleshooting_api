@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Set OpenAI API key
-api_key = 'your_api_key'  # Replace with your OpenAI API key
+api_key = 'your_openai_api_key'  # Replace with your OpenAI API key
 
 client = OpenAI(api_key=api_key)
 
